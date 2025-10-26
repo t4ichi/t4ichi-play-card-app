@@ -1,0 +1,63 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "files": {
+    "ignoreUnknown": false,
+    "ignore": [
+      "**/node_modules/**",
+      "**/.next/**",
+      "**/public/**",
+      "**/coverage/**",
+      "**/src/lib/orval/fetchers/**",
+      "**/src/lib/orval/schemas/**",
+      "**/.vercel/**",
+      "**/dist/**",
+      "**/build/**",
+      "**/.storybook/**",
+      "**/storybook-static/**",
+      "**/*.config.js",
+      "**/*.config.ts",
+      "**/*.config.mjs",
+      "**/tailwind.config.*",
+      "**/postcss.config.*",
+      "**/vitest.config.*",
+      "**/orval.config.*",
+      "**/wrangler.toml",
+      "**/*.d.ts",
+      "**/CLAUDE.md",
+      "**/README.md",
+      "**/.env*",
+      "**/package.json",
+      "**/package-lock.json",
+      "**/pnpm-lock.yaml",
+      "**/yarn.lock",
+      "**/*.log"
+    ]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "indentWidth": 2
+  },
+  "organizeImports": {
+    "enabled": true
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "suspicious": {
+        "noArrayIndexKey": "off"
+      }
+    }
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "double"
+    }
+  }
+}

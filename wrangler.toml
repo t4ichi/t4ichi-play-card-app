@@ -1,0 +1,11 @@
+name = "t4ichi-blog-app"
+compatibility_date = "2024-06-15"
+compatibility_flags = ["nodejs_compat_v2"]
+
+pages_build_output_dir = ".vercel/output/static"
+
+[env.production.vars]
+NODE_ENV = "production"
+
+[env.preview.vars]
+NODE_ENV = "preview"
