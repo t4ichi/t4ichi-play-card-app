@@ -46,11 +46,10 @@ jobs:
       - name: Build project for Cloudflare Pages
         run: pnpm pages:build
         env:
-          MICROCMS_API_KEY: ${{ secrets.MICROCMS_API_KEY }}
-          MICROCMS_SERVICE_DOMAIN: ${{ secrets.MICROCMS_SERVICE_DOMAIN }}
+          SITE_URL: ${{ secrets.SITE_URL }}
 
       - name: Deploy to Cloudflare Pages
-        run: npx wrangler pages deploy .vercel/output/static --project-name=t4ichi-blog-app
+        run: npx wrangler pages deploy .vercel/output/static --project-name=t4ichi-play-card-app
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
