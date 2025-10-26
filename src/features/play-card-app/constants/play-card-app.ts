@@ -20,22 +20,22 @@ export const PLAY_CARD_APP_INFO = {
   appStoreUrl: "https://apps.apple.com/app/id6751434516",
   screenshots: [
     {
-      src: "/images/apps/play-card-app/01-before-draw.png",
+      src: "/images/01-before-draw.png",
       alt: "トランプ引くだけアプリのメイン画面 - カードを引く前の状態",
       type: "image" as const,
     },
     {
-      src: "/images/apps/play-card-app/02-card-drawn.png",
+      src: "/images/02-card-drawn.png",
       alt: "カードを引いた結果画面 - 引いたカードの表示",
       type: "image" as const,
     },
     {
-      src: "/images/apps/play-card-app/03-drawn-cards-list.png",
+      src: "/images/03-drawn-cards-list.png",
       alt: "引いたカードの履歴一覧 - 過去に引いたカード履歴",
       type: "image" as const,
     },
     {
-      src: "/images/apps/play-card-app/app-demo.mp4",
+      src: "/images/app-demo.mp4",
       alt: "アプリ操作デモ動画",
       type: "video" as const,
     },

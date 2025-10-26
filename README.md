@@ -1,5 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-s
+# トランプ引くだけ - Play Card App
+
+「トランプ引くだけ」アプリの公式ウェブサイト。パーティーゲーム・罰ゲーム決め・順番決めに最適なiOS向けカード抽選アプリです。
 
 ## Getting Started
 

@@ -1,5 +1,5 @@
 {
-  "name": "t4ichi-blog-app",
+  "name": "t4ichi-play-card-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,7 +15,7 @@
     "test:coverage": "vitest run --coverage",
     "pages:build": "npx @cloudflare/next-on-pages",
     "preview": "npm run pages:build && wrangler pages dev .vercel/output/static",
-    "deploy": "npm run pages:build && wrangler pages deploy .vercel/output/static --project-name=t4ichi-blog-app",
+    "deploy": "npm run pages:build && wrangler pages deploy .vercel/output/static --project-name=t4ichi-play-card-app",
     "cf-deploy": "echo 'Next.js build completed successfully for Cloudflare Pages'"
   },
   "dependencies": {

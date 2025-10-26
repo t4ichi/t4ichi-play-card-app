@@ -6,35 +6,35 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "Ito Taichi | Web Developer Portfolio",
-    template: "%s | Ito Taichi",
+    default: "トランプ引くだけ - 無料カード抽選アプリ",
+    template: "%s | トランプ引くだけ",
   },
   description:
-    "Web developer specializing in Next.js, TypeScript, and modern web technologies. Portfolio and projects showcase.",
+    "【iOS無料】ワンタップでトランプを1枚引くシンプルなカード抽選アプリ。パーティー・飲み会・罰ゲーム決め・順番決めに最適。",
   authors: [{ name: "Ito Taichi" }],
   keywords: [
-    "Ito Taichi",
-    "Web Developer",
-    "Next.js Developer",
-    "TypeScript",
-    "Frontend Developer",
-    "Portfolio",
-    "Software Engineer",
-    "React Developer",
+    "トランプ引くだけ",
+    "カード抽選アプリ",
+    "パーティーゲーム",
+    "罰ゲーム決め",
+    "順番決めアプリ",
+    "飲み会ゲーム",
+    "iOS",
+    "無料アプリ",
   ],
   openGraph: {
-    title: "Ito Taichi | Web Developer Portfolio",
+    title: "トランプ引くだけ - 無料カード抽選アプリ",
     description:
-      "Web developer specializing in Next.js, TypeScript, and modern web technologies.",
+      "【iOS無料】ワンタップでトランプを1枚引くシンプルなカード抽選アプリ。パーティー・飲み会・罰ゲーム決め・順番決めに最適。",
     type: "website",
     locale: "ja_JP",
-    siteName: "Ito Taichi Portfolio",
+    siteName: "トランプ引くだけ",
   },
   twitter: {
-    card: "summary",
-    title: "Ito Taichi | Web Developer Portfolio",
+    card: "summary_large_image",
+    title: "トランプ引くだけ - 無料カード抽選アプリ",
     description:
-      "Web developer specializing in Next.js, TypeScript, and modern web technologies.",
+      "【iOS無料】ワンタップでトランプを1枚引くシンプルなカード抽選アプリ。パーティー・飲み会・罰ゲーム決め・順番決めに最適。",
   },
   robots: {
     index: true,
