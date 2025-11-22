@@ -1,4 +1,4 @@
-name = "t4ichi-blog-app"
+name = "t4ichi-play-card-app"
 compatibility_date = "2024-06-15"
 compatibility_flags = ["nodejs_compat_v2"]
 

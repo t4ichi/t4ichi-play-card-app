@@ -13,8 +13,8 @@ import {
 } from "@/features/play-card-app/constants/play-card-app";
 import type { Metadata } from "next";
 
-// Cloudflare Pages対応設定
-export const runtime = "edge";
+// 注意: runtime = "edge" を使用すると @cloudflare/next-on-pages で
+// ルートパスが正しく処理されない問題があるため、静的生成を使用
 
 const baseUrl = env.SITE_URL;
 const pageUrl = baseUrl;

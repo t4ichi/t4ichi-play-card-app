@@ -14,8 +14,8 @@
     "test": "vitest",
     "test:coverage": "vitest run --coverage",
     "pages:build": "npx @cloudflare/next-on-pages",
-    "preview": "npm run pages:build && wrangler pages dev .vercel/output/static",
-    "deploy": "npm run pages:build && wrangler pages deploy .vercel/output/static --project-name=t4ichi-play-card-app",
+    "preview": "pnpm run pages:build && npx wrangler pages dev .vercel/output/static",
+    "deploy": "pnpm run pages:build && npx wrangler pages deploy .vercel/output/static --project-name=t4ichi-play-card-app",
     "cf-deploy": "echo 'Next.js build completed successfully for Cloudflare Pages'"
   },
   "dependencies": {
@@ -60,7 +60,7 @@
     "vite-plugin-svgr": "^4.3.0",
     "vite-tsconfig-paths": "^5.1.4",
     "vitest": "^3.2.3",
-    "wrangler": "^4.20.0"
+    "wrangler": "4"
   },
   "browserslist": [
     "chrome >= 91",
