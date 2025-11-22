@@ -6,7 +6,7 @@ export const env = createEnv({
    * サーバーサイドの環境変数
    */
   server: {
-    SITE_URL: z.string().url().default("https://t4ichi.dev"),
+    SITE_URL: z.string().url().default("https://play-card-app.t4ichi.dev"),
   },
 
   /**
